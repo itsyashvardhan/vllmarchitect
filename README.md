@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# VLLMArchitect
 
-# Run and deploy your AI Studio app
+![Banner](./banner.png)
 
-This contains everything you need to run your app locally.
+A technical design guide and interactive tool for selecting vision encoders for edge-deployed Large Multimodal Models (LMMs).
 
-View your app in AI Studio: https://ai.studio/apps/drive/1q9Ghk5PBwLNcUjFbv_gHbJJQYROxNp4X
+## Features
 
-## Run Locally
+* Data-driven hardware recommendations for local LLM inference.
+* Performance benchmarking across 34 different devices.
+* Interactive price-to-performance analysis for vision-capable models.
+* Comprehensive deployment guides for optimized multimodal performance.
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+* React
+* Vite
+* Lucide React
+* Tremor (Charts)
+* Framer Motion
+
+## Getting Started
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
