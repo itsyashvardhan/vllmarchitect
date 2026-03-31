@@ -1,0 +1,5 @@
+{
+  "name": "VLLMArchitect",
+  "description": "A technical design guide and interactive tool for selecting vision encoders for edge-deployed Large Multimodal Models.",
+  "requestFramePermissions": []
+}
