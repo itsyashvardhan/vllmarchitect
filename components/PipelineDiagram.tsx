@@ -7,9 +7,9 @@ const PipelineDiagram: React.FC = () => {
       title: 'Input Processing',
       subtitle: 'Resize & Normalize',
       desc: 'Images resized to 224px/384px and normalized. Resolution choice critically determines encoder latency.',
-      bg: 'rgba(59,130,246,0.1)',
-      border: 'rgba(59,130,246,0.2)',
-      iconBg: 'rgba(59,130,246,0.15)',
+      bg: 'rgba(203,213,225,0.1)',
+      border: 'rgba(203,213,225,0.2)',
+      iconBg: 'rgba(203,213,225,0.15)',
       tag: 'L_preprocess ≈ trivial',
     },
     {
@@ -49,7 +49,7 @@ const PipelineDiagram: React.FC = () => {
     <section className="section" id="pipeline">
       <div className="section-inner">
         <div className="section-header">
-          <div className="section-badge" style={{ background: 'rgba(59,130,246,0.12)', color: '#3b82f6', border: '1px solid rgba(59,130,246,0.25)' }}>
+          <div className="section-badge" style={{ background: 'rgba(203,213,225,0.12)', color: '#cbd5e1', border: '1px solid rgba(203,213,225,0.25)' }}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
             System Architecture
           </div>

@@ -44,15 +44,15 @@ export default function DeepDive() {
         {/* Abstract Visualization of Scaling */}
         <div className="relative w-48 h-48">
           {/* Base */}
-          <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-500 rounded-lg opacity-80 z-30 flex items-center justify-center text-white font-bold text-xs shadow-lg transform transition-transform hover:scale-105">
+          <div className="absolute bottom-0 left-0 w-24 h-24 bg-slate-500 rounded-lg opacity-80 z-30 flex items-center justify-center text-white font-bold text-xs shadow-lg transform transition-transform hover:scale-105">
             B0
           </div>
           {/* Width */}
-          <div className="absolute bottom-0 left-0 w-32 h-24 bg-blue-400 rounded-lg opacity-60 z-20 flex items-start justify-end p-2 text-white font-bold text-xs">
+          <div className="absolute bottom-0 left-0 w-32 h-24 bg-slate-400 rounded-lg opacity-60 z-20 flex items-start justify-end p-2 text-white font-bold text-xs">
             Width
           </div>
           {/* Depth */}
-          <div className="absolute bottom-0 left-0 w-24 h-32 bg-blue-600 rounded-lg opacity-60 z-20 flex items-end justify-start p-2 text-white font-bold text-xs">
+          <div className="absolute bottom-0 left-0 w-24 h-32 bg-slate-600 rounded-lg opacity-60 z-20 flex items-end justify-start p-2 text-white font-bold text-xs">
             Depth
           </div>
           {/* Resolution */}

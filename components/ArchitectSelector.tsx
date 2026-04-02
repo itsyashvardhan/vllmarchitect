@@ -116,10 +116,10 @@ const ArchitectSelector: React.FC = () => {
         </div>
 
         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', marginBottom: '3rem', flexWrap: 'wrap' }}>
-          <button className={`chip ${activeTab === 'vlm' ? 'active active-blue' : ''}`} onClick={() => setActiveTab('vlm')}>VLM Architect</button>
-          <button className={`chip ${activeTab === 'leaderboard' ? 'active active-blue' : ''}`} onClick={() => setActiveTab('leaderboard')}>LLM Leaderboard</button>
-          <button className={`chip ${activeTab === 'scatter' ? 'active active-blue' : ''}`} onClick={() => setActiveTab('scatter')}>Scatter Plot</button>
-          <button className={`chip ${activeTab === 'guide' ? 'active active-blue' : ''}`} onClick={() => setActiveTab('guide')}>Deployment Guide</button>
+          <button className={`chip ${activeTab === 'vlm' ? 'active active-chalk' : ''}`} onClick={() => setActiveTab('vlm')}>VLM Architect</button>
+          <button className={`chip ${activeTab === 'leaderboard' ? 'active active-chalk' : ''}`} onClick={() => setActiveTab('leaderboard')}>LLM Leaderboard</button>
+          <button className={`chip ${activeTab === 'scatter' ? 'active active-chalk' : ''}`} onClick={() => setActiveTab('scatter')}>Scatter Plot</button>
+          <button className={`chip ${activeTab === 'guide' ? 'active active-chalk' : ''}`} onClick={() => setActiveTab('guide')}>Deployment Guide</button>
         </div>
 
         {activeTab === 'vlm' && (

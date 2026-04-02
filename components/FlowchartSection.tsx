@@ -205,18 +205,18 @@ const FlowchartSection: React.FC = () => {
                 {/* CNN Branch */}
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 0 }}>
                   <div className="flow-node flow-node-secondary" style={{ minWidth: 180, fontSize: '0.82rem' }}>
-                    <span style={{ color: '#3b82f6', fontWeight: 700 }}>CNN</span>
+                    <span style={{ color: '#cbd5e1', fontWeight: 700 }}>CNN</span>
                     <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>O(R²) scaling</div>
                   </div>
                   <div className="dt-connector" />
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                    <div style={{ padding: '0.5rem 1rem', background: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.15)', borderRadius: 8, fontSize: '0.75rem', textAlign: 'center' }}>
+                    <div style={{ padding: '0.5rem 1rem', background: 'rgba(203,213,225,0.08)', border: '1px solid rgba(203,213,225,0.15)', borderRadius: 8, fontSize: '0.75rem', textAlign: 'center' }}>
                       EfficientNet B0–B7
                     </div>
-                    <div style={{ padding: '0.5rem 1rem', background: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.15)', borderRadius: 8, fontSize: '0.75rem', textAlign: 'center' }}>
+                    <div style={{ padding: '0.5rem 1rem', background: 'rgba(203,213,225,0.08)', border: '1px solid rgba(203,213,225,0.15)', borderRadius: 8, fontSize: '0.75rem', textAlign: 'center' }}>
                       MobileNetV3
                     </div>
-                    <div style={{ padding: '0.5rem 1rem', background: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.15)', borderRadius: 8, fontSize: '0.75rem', textAlign: 'center' }}>
+                    <div style={{ padding: '0.5rem 1rem', background: 'rgba(203,213,225,0.08)', border: '1px solid rgba(203,213,225,0.15)', borderRadius: 8, fontSize: '0.75rem', textAlign: 'center' }}>
                       ResNet Family
                     </div>
                   </div>

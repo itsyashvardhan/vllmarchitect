@@ -73,7 +73,7 @@ const LatencyChart: React.FC = () => {
 
         <div className="chart-container">
           <div className="chart-filters">
-            <button className={`chip ${filters.cnn ? 'active active-blue' : ''}`} onClick={() => toggle('cnn')}>
+            <button className={`chip ${filters.cnn ? 'active active-chalk' : ''}`} onClick={() => toggle('cnn')}>
               ● CNN (EfficientNet/MobileNet)
             </button>
             <button className={`chip ${filters.hybrid ? 'active active-green' : ''}`} onClick={() => toggle('hybrid')}>
@@ -114,7 +114,7 @@ const LatencyChart: React.FC = () => {
                   label={{ value: 'Interactive (<50ms)', fill: 'rgba(6,182,212,0.6)', fontSize: 10, position: 'insideTop' }} />
 
                 {filters.cnn && (
-                  <Scatter name="CNN Family" data={dataCNN} fill="#3b82f6" shape="circle" />
+                  <Scatter name="CNN Family" data={dataCNN} fill="#cbd5e1" shape="circle" />
                 )}
                 {filters.hybrid && (
                   <Scatter name="Hybrid Models" data={dataHybrid} fill="#10b981" shape="triangle" />

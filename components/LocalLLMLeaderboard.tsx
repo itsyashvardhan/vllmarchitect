@@ -308,7 +308,7 @@ const LocalLLMLeaderboard: React.FC = () => {
                 <button
                   key={s.key}
                   onClick={() => setSortBy(s.key as any)}
-                  className={`chip ${sortBy === s.key ? 'active active-blue' : ''}`}
+                  className={`chip ${sortBy === s.key ? 'active active-chalk' : ''}`}
                   style={{ fontSize: '0.72rem' }}
                 >
                   {s.label}
